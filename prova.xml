@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+<agenda>
+    <contacte>
+        <nom>????</nom>
+        <cognom>¿¿¿¿</cognom>
+        <tlf>123456789</tlf>
+        <email>prueba@gmail.com</email>
+        <adreca>
+            <carrer>av. catalunya</carrer>
+            <num>12</num>
+            <cp>08080</cp>        
+        </adreca>
+    </contacte>
+</agenda>

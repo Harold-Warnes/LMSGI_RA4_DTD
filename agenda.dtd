@@ -1,0 +1,10 @@
+<!ELEMENT agenda (contacte*)>
+<!ELEMENT contacte (nom, cognom+, tlf, email?, adreca)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT adreca (carrer, num, cp)>
+<!ELEMENT carrer (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
