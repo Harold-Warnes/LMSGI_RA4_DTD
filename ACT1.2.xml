@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "Actividad1.2.dtd">
+<cataleg>
+    <llista_actors>
+        <actor id="A1">
+            <nom>Robert Downey Jr.</nom>
+            <edat>58</edat>
+        </actor>
+        <actor id="A2">
+            <nom>Scarlett Johansson</nom>
+        </actor>
+    </llista_actors>
+
+    <llista_pelicules>
+        <pelicula id="P1">
+            <titol idioma="EN">Iron Man</titol>
+            <director>Jon Favreau</director>
+            <any>2008</any>
+            <actors>
+                <actor_ref ref="A1"/>
+            </actors>
+        </pelicula>
+
+        <pelicula id="P2">
+            <titol idioma="EN">Avengers: Endgame</titol>
+            <director>Anthony Russo, Joe Russo</director>
+            <any>2019</any>
+            <actors>
+                <actor_ref ref="A1"/>
+                <actor_ref ref="A2"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="P2"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
